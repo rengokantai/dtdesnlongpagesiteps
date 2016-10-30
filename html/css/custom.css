@@ -29,6 +29,10 @@
 	padding: 80px;
 }
 
+.grid-container-right{
+	padding-top: 60px;
+}
+
 #gridimg{
 	margin: 0 auto;
 	display: block;
@@ -48,6 +52,75 @@ h1,.wt-l,h4{
 	padding-bottom: 25px;
 }
 
+.cta{
+	color:#000;
+	background: #23d77c url(../images/right.png) no-repeat 13px 13px;
+	border-radius: 8px;
+	padding: 13px 18px 13px 50px;
+	font-size: 1.4em;
+	margin-top: 25px;
+	text-indent:20px;
+}
+
+.cta:hover{
+	color:#000;
+	background-color: #23c674;
+}
+h2{
+	text-align: center;
+	margin: 40px 0 80px 0;
+	font-size: 3em;
+}
+
+h1{
+	font-size: 4em;
+	margin-top: 50px;
+}
+
+.sub-title{
+	display: block;
+	font-size: 1.7em;
+	margin: 20px 0 10px 0;
+}
+.features{
+	text-align: center;
+}
+p{
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+.header-unit{
+	height:650px;
+	width: 100%;
+	position: relative;
+}
+#video-container{
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	z-index: -21;
+}
+video{
+	position: absolute;
+	z-index: -20;
+}
+video.fillWidth{
+	width: 100%;
+}
+h4{
+	color: #fff;
+	font-size: 4.5em;
+	text-align: center;
+	margin-top: 170px;
+}
+
+#play img{
+	display: block;
+	margin: 40px auto;
+}
 
 @media only screen and (max-width: 40.063em) {
 
