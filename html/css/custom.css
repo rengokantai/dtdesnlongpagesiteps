@@ -122,6 +122,35 @@ h4{
 	margin: 40px auto;
 }
 
+#support-content{
+	background: url(../images/honeycomb-bg.png);
+	padding:150px;
+}
+
+#testimonial-content{
+	background: url(../images/quote.png) 20% 50% fixed no-repeat;
+	padding:120px;
+	margin-bottom: 500px;
+}
+.title{
+	font-size: 1.7em;
+}
+
+.fadeInBlock{
+	opacity: 0;
+}
+
+#svg{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	visibility: hidden;
+}
+
+.auth-img{
+	text-align: center;
+}
+
 @media only screen and (max-width: 40.063em) {
 
 
